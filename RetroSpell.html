@@ -1,0 +1,38 @@
+	<head>
+		<div id="border-top">
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+			<title>Retroactive Spelling</title>
+		</div>
+	</head>
+	<body>
+		{{> controls}}
+	</body>
+
+	<template name="controls">
+		<div id="banner">
+			<div id="title_box">
+				<h1 style="	font: 400% normal Verdana;
+					font-variant: small-caps;
+					color: white;
+					text-align: left;
+					margin-left: 10px;
+					text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">Retro Text</h1>
+			</div>
+			<div id="text_box">
+				<h5 style=" font: 200% normal Verdana;
+					font-variant: small-caps;
+					color: white;
+					margin-left: 15px;
+					margin-top: 15px;
+					text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">Built with JavaScript, this web application uses an abecedarium, courtesy of Penn Libraries, to convert normal text into medieval calligraphy.</h5>
+			</div>
+		</div>
+		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.2.6.min.js"></script>
+		<form id="myForm" action="demo_form.asp">
+  			<input type="text" name="fname" style="width:600px; height:50px; font-size: 40px">
+		</form>
+		<button id="magicButton" type="button" class="myButton">
+			<img src="http://farm6.staticflickr.com/5030/5552713825_ed01afd415_o.jpg" width="50" height="50">
+		</button>
+		<div class="display"></div>
+	</template>
